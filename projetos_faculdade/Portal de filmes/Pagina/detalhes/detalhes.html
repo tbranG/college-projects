@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Detalhes</title>
+
+        <link rel="stylesheet" href="detalhesStyle.css">
+        <script src="../jquery-3.6.0.min.js"></script>
+        <script src="detalhesSc.js"></script>
+        <script src="../menuController.js"></script>
+        <script src="../pesquisa/search.js"></script>
+    </head>
+    <body>
+        <!-- menu -->
+        <header class="header-menu">
+            <img class="logo" src="../imgs/icone-cinema.png" alt="logo">
+            <div class="menu-search">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html#section1">Lançamentos</a>
+                        </li>
+                        <li>|</li>
+                        <li><a href="../index.html#section2">Destaque</a>
+                        </li>
+                        <li>|</li>
+                        <li><a href="../index.html#section4">Sobre</a></li>
+                    </ul>                 
+                </nav>
+                
+                <div class="search-bar">
+                    <input type="search" placeholder="  Buscar">            
+                    <button><img src="../imgs/lupa.png"></button>
+                </div>
+                <button class="menu-toggle">
+                    <img class="menu-button" src="../imgs/menu.png" alt="menu-icon">
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <section class="movie-details"> 
+                <div class="banner">
+                    <div class="card"></div>
+                    <div class="overview">
+                        <h2></h2>
+                        <div class="info"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="movie-extra-info">
+                <h2>Informações Extras</h2>
+            </section>
+        </main>
+    </body>
+</html>
