@@ -1,0 +1,120 @@
+/* config gerais */
+html{
+    height: 100%;
+}
+
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    min-height: 80vh;
+}
+
+/* menu desktop */
+@media screen and (min-width: 600px){
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5px;
+        padding: 10px;
+    
+        background-color: #4e4e4e;
+        color: white;
+    }
+    
+    header .menu{
+        display: flex;
+    }
+    
+    header ul li{
+        list-style: none;
+        padding-left: 20px;
+    }
+
+    
+}
+
+/* menu mobile */
+@media screen and (max-width: 600px){
+    header{
+        display: flex;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+
+        justify-content: center;
+        padding: 10px;
+    
+        background-color: #4e4e4e;
+        color: white;
+    }
+    
+    header .menu{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    header ul li{
+        list-style: none;
+        padding-left: 10px;
+    }
+}
+
+
+/* corpo desktop */
+@media screen and (min-width: 601px){
+    section p img{
+        float: left;
+        padding-right: 10px;
+    }
+    
+    section{
+        margin: 5px;
+        margin-bottom: 50px;
+
+        font-size: 1rem;
+    }
+
+    footer{
+        clear: left;
+        
+        margin: 0px 5px;
+        padding: 5px;
+    
+        background-color: #4e4e4e;
+        color: white;
+    }
+}
+
+/* corpo mobile*/
+@media screen and (max-width: 600px) {
+    section{
+        margin: 50px 10px 5px 5px;
+        font-size: 1.1rem;
+    }
+    
+    section h1{
+        text-align: center;
+    }
+
+    section p img{
+        margin: 0 auto;
+        display: block;
+    }
+
+    footer{
+        width: 100%;
+        padding: 5px;
+    
+        background-color: #4e4e4e;
+        color: white;
+    }
+
+}
+
