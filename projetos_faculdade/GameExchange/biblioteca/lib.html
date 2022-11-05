@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Biblioteca</title>
+        <link rel="styleSheet" href="libStyle.css">
+        <script src="handler.js"></script>
+        <script src="../jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <!-- autocomplete info-->
+        <datalist id="game-input-autocomplete">         
+        </datalist>
+        <datalist id="platform-input-autocomplete">
+        </datalist>
+
+        <!-- cabeçalho -->
+        <header>
+            <div class="top-menu">
+                <div class="logo">
+                    <img src="../imgs/Logo.png" alt="logo.png">
+                    <label>ame Exchange</label>
+                </div>
+                <div class="input-area">
+                    <div id="areaBemVindo">
+                        <ul class="cadastro-login">
+                            <li><a href="../login/login.html">Login</a></li>
+                            <li>|</li>
+                            <li><a href="../cadastro/cadastro.html">Cadastro</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-menu">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li>|</li>
+                        <li><a href="lib.html">Biblioteca</a></li>
+                        <li>|</li>
+                        <li><a href="../trocas/troca.html">Página de troca</a></li>
+                        <li>|</li>
+                        <li><a href="../busca/busca.html">Lista de jogos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <!-- estrutura básica do site -->
+        <div class="grid">
+            <section class="game-list">
+                <h3>Lista</h3>
+                <ul id="list">
+                </ul>
+            </section>
+    
+            <section id="thumbs">
+                <h3>Biblioteca</h3>
+            </section>
+        </div>
+        
+        <!-- menu-cadastro -->
+        <div class="menu-cadastro">
+            <!-- div da classe do menu-->
+            <div></div>
+            <!---->
+            <h3>Cadastre seu jogo</h3>
+            <div class="name-input">
+                <h3>Nome</h3>
+                <!-- div para checagem de estado -->
+                <div id="state-check"></div>
+                <!---->
+                <input class="name-field" type="text" placeholder="ex: Sonic Mania" list="game-input-autocomplete">
+            </div>
+            <div class="platform-input">
+                <h3>Plataforma</h3>
+                <!-- div para checagem de estado -->
+                <div id="state-check"></div>
+                <!---->
+                <input class="platform-field" type="text" placeholder="ex: PC" list="platform-input-autocomplete">
+            </div>
+            <input class="submit" type="submit">
+            <button class="cancel">Cancelar</button>
+        </div>
+
+        <!-- área dos botões -->
+        <div class="buttons">
+            <button type="button" id="add-game">Add</button>
+            <button type="button" id="remove-game">Remove</button>
+        </div>
+
+        <!-- rodapé -->
+        <footer>
+            <p>@Copyright 2022. Todos os direitos reservados</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assinatura</title>
+        
+        <link rel="stylesheet" href="assinarStyle.css">
+        <script src="../jquery-3.6.0.min.js"></script>
+        <script src="assinatura.js"></script>
+
+    </head>
+    <body>
+        <div class="background"></div>
+        <main>
+            <section class="service-type">
+                <div>
+                    <input id="monthly" type="checkbox">
+                    <h3>Mensal</h3>
+                    <p>Valor:<br>R$29,90 / Mês</p>
+                </div>
+                <div>
+                    <input id="yearly" type="checkbox">
+                    <h3>Anual</h3>
+                    <p>Valor:<br>R$330,00 / Ano</p>
+                </div>
+            </section>
+            <h2>Dados</h2>
+            <section class="user-info">
+                <div>
+                    <label for="card-info">Cartão</label><br>
+                    <input id="card-info" type="text" placeholder="XXXX XXXX XXXX XXXX">
+                </div>
+                <div>
+                    <label for="date-info">Data de vencimento</label><br>
+                    <input id="date-info" type="text" placeholder="MM/AA">
+                </div>
+                <div>
+                    <label for="code-info">Código de segurança</label><br>
+                    <input id="code-info" type="text">
+                </div>
+                <div>
+                    <label for="owner-info">Nome<br>Obs: Como está no cartão</label><br>
+                    <input id="owner-info" type="text">
+                </div>
+                <button class="submit-button">Enviar</button>
+            </section>
+        </main>
+        
+    </body>
+</html>

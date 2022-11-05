@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="cadastroStyle.css">
+        <title>Cadastro de usuário</title>
+
+        <!-- jquery -->
+        <script src="../jquery-3.6.0.min.js"></script>
+
+        <!-- bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+        <!-- data picker -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+        <script src="cadastrar.js"></script>
+
+        <!-- configurando o data picker -->
+        <script>
+            $(document).ready(function(){
+              var date_input=$('input[name="date"]'); //our date input has the name "date"
+              var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+              var options={
+                format: 'dd/mm/yyyy',
+                container: container,
+                todayHighlight: true,
+                autoclose: true,
+              };
+              date_input.datepicker(options);
+            })
+        </script>
+    </head>
+    <body>
+        <div class="background"></div>
+        <aside class="main-area">
+            <h2>Novo usuário</h2>
+            <section class="cadastro">    
+                <div class="name-input">
+                    <div>
+                        <label for="fname">Digite seu nome:</label><br>
+                        <input type="text" id="fname" placeholder="Primeiro nome"><br>
+                    </div>
+                    <div>
+                        <label for="lname">Digite seu sobrenome:</label><br>
+                        <input type="text" id="lname" placeholder="Sobrenome"><br>
+                    </div>
+                </div>
+                
+                <div class="user-input">
+                    <label for="uname">Nome do usuário</label><br>
+                    <input type="text" id="uname">
+                </div>
+
+                <!-- seletor de data -->
+                <!-- <div class="date-picker">
+                    <label for="date">Data de Nascimento</label><br>
+                    <input class="form-control" id="date" name="date" placeholder="DD/MM/AAAA" type="text"/>
+                </div> -->
+                <div class="date-input">
+                    <label for="date">Data de Nascimento</label><br>
+                    <input type="text" id="date" placeholder="DD/MM/AAAA">
+                </div>
+                  <!-- botão de envio -->
+                  <!--<div class="form-group">
+                    <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+                  </div>-->
+
+                <div class="email-input">
+                    <label for="email">E-mail</label><br>
+                    <input type="text" id="email">
+                </div>
+                <div class="password-input">
+                    <div>
+                        <label for="password">Senha:</label><br>
+                        <input type="text" id="password"><br>
+                    </div>
+                    <div>
+                        <label for="confirm">Confirmar senha:</label><br>
+                        <input type="text" id="confirm"><br>
+                    </div>
+                </div>
+
+                <div class="term-check">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">Aceito os termos e condições</label>
+                </div>
+                <button class="submit-button">Enviar</button>
+            </section>
+        </aside>
+    </body>
+</html>

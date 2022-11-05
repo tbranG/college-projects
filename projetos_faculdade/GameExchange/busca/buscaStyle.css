@@ -1,0 +1,177 @@
+/* config gerais */
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    color: black;
+}
+/**/
+
+/* #region formatação cabeçalho */
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(35, 35, 35);
+}
+
+.top-menu .logo{
+    display: flex;
+    align-items: center;
+}
+
+.top-menu .logo label{
+    
+    color: white;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sub-menu nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+    margin: 0px;
+    padding: 3px;
+
+    background-color: brown;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    color: white;
+
+}
+
+.logo img{
+    width: 50px;
+}
+
+.input-area{
+    display: flex;
+    align-items: center;
+
+    padding: 0px 10px;
+}
+
+.input-area ul{
+    display: flex;
+    list-style: none;
+
+    color: white;
+    padding: 0px 5px;
+}
+
+.input-area ul li{
+    padding-right: 10px;
+}
+/* #endregion */
+
+/* #region formatação do corpo */
+body{
+    background-color: rgb(43, 48, 75);
+    background-image: radial-gradient(rgb(56, 62, 99), rgb(10, 13, 34));     
+}
+
+.list{
+    color: white;
+    list-style: decimal;
+    padding-left: 50px;
+}
+
+.list li:nth-child(even){
+    background-color: rgba(39, 39, 39, 0.8);
+}
+
+.game-thumbs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game-thumbs img{
+    margin: 15px;
+    height: 135px;
+}
+/* #endregion */
+
+#areaBemVindo p{
+    color: white;
+}
+#areaBemVindo button{
+    background-color: brown;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+#areaBemVindo button:hover{
+    cursor: pointer;
+}
+
+/* Deskyop */
+@media screen and (min-width : 651px){
+    
+    main{
+        margin: 20px 75px 0px;
+        
+    }
+
+    main > h2{
+        text-align: center;
+        color: white;
+    }
+
+    .content{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .game-thumbs{
+        height: 70vh;
+        background-color: rgba(20, 20, 20, 0.8);
+        border-radius: 20px;
+        margin-right: 50px;
+
+        overflow-y: scroll;
+    }
+
+    .game-list{
+        height: 70vh;
+        background-color: rgba(20, 20, 20, 0.8);
+        border-radius: 20px;
+
+        overflow-y: scroll;    
+    }
+}
+/* Mobile */
+@media screen and (max-width : 650px) {
+
+    main > h2{
+        text-align: center;
+        color: white;
+    }
+
+    .game-thumbs{
+        background-color: rgba(20, 20, 20, 0.8);
+        height: 70vh;
+        overflow-y: scroll;
+
+        margin-bottom: 50px;
+    }
+
+    .game-list{
+        height: 30vh;
+        background-color: rgba(20, 20, 20, 0.8);
+        overflow-y: scroll;
+    }
+}

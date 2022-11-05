@@ -1,0 +1,218 @@
+/* definições gerais*/
+html{
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    color: black;
+}
+/**/
+
+/* formatação do grid e seções */
+div.grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 82vh;
+}
+
+
+div.grid section.game-list {
+    color: white;
+    background-color: rgb(35, 35, 35);
+
+    padding-left: 10px;
+    overflow-y: scroll;
+
+    box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+div.grid section.game-list ul{
+    padding: 0px;
+}
+
+div.grid section.game-list ul li{
+    padding-left: 10px;
+}
+
+div.grid section.game-list ul li:nth-child(even){
+    background-color: rgb(60, 60, 60);
+}
+
+div.grid section.thumbs img{
+    display: inline;
+}
+
+div.grid section.thumbs{
+    display: flex;  
+    overflow-y: scroll;
+}
+
+div section#thumbs{
+    background-color: rgb(150, 150, 150);
+    padding-left: 10px;
+}
+/**/
+
+/* formatação do cabeçalho */
+header .top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(35, 35, 35);
+}
+
+header .top-menu .logo{
+    display: flex;
+    align-items: center;
+}
+
+header .top-menu .logo label{
+    
+    color: white;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header .sub-menu nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+    margin: 0px;
+    padding: 3px;
+
+    background-color: brown;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    color: white;
+
+}
+
+header .logo img{
+    width: 50px;
+}
+
+header .input-area{
+    display: flex;
+    align-items: center;
+
+    padding: 0px 10px;
+}
+
+header .input-area ul{
+    display: flex;
+    list-style: none;
+
+    color: white;
+    padding: 0px 5px;
+}
+
+header .input-area ul li{
+    padding-right: 10px;
+}
+/**/
+
+/* definição menu-cadastro */
+div.menu-cadastro{
+    padding: 10px 30px 30px;
+    background-color: rgb(35, 35, 35);
+    border: 3px dashed brown;
+    border-radius: 30px;
+
+    position: absolute;
+    visibility: visible;
+    top: 15%;
+    left: 40%;
+    
+}
+
+div.menu-cadastro h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: white;
+}
+
+.menu-cadastro div input{
+    border-radius: 20px;
+}
+
+div.menu-cadastro input[type="text"]{
+    padding: 5px 20px;
+}
+
+div.menu-cadastro input.submit{
+    margin-top: 15px;
+    font-size: large;
+}
+
+div.menu-cadastro button.cancel{
+    margin-top: 15px;
+    font-size: large;
+}
+/**/
+
+/* definições básicas dos botões */
+div.buttons{
+    position: absolute;
+    padding: 0%;
+
+    left: 75vw;
+    bottom: 10%;
+}
+
+.buttons button{
+    position: relative;
+    left: 80%;
+}
+
+
+.buttons button{
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+}
+/**/
+
+#areaBemVindo p{
+    color: white;
+}
+#areaBemVindo button{
+    background-color: brown;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+#areaBemVindo button:hover{
+    cursor: pointer;
+}
+
+/* definição das thumbs e listas*/
+section img{
+    height: 120px;
+    width: 90px;
+    margin: 10px;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* rodapé */
+footer {
+    background-color: brown;
+    color: white;
+}
+
+footer p{
+    margin: 0px;
+    padding: 10px 5px 10px;
+}

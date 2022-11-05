@@ -1,0 +1,84 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.background{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url('../imgs/banner_Site.jpg');
+    background-size: cover;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+main{
+    max-width: 450px;
+    margin: 0px auto;
+
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border-left: 3px dashed brown;
+    border-right: 3px dashed brown;
+
+}
+
+main section{
+    padding: 20px;
+}
+
+main h2{
+    text-align: center;
+}
+
+/* formatação das seções */
+.service-type{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.service-type div{
+    text-align: center;
+    padding: 5px;
+}
+
+.service-type div:nth-child(1){
+    background-color: rgb(30, 30, 30);
+}
+.service-type div:nth-child(2){
+    background-color: rgb(45, 45, 45);
+}
+
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.user-info *{
+    margin: 3px;
+}
+
+.submit-button{
+    background-color: brown;
+    color: white;
+    border: none;
+
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.submit-button:hover{
+    cursor: pointer;
+}

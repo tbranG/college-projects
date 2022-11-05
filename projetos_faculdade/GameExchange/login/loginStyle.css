@@ -1,0 +1,154 @@
+/* configurações gerais */
+html{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.login-menu img{
+    width: 160px;
+}
+
+.acessos button:hover{
+    cursor: pointer;
+}
+
+.exit button{
+    background: none;
+    border: none;
+}
+
+.exit button img{
+    width: 50px;
+}
+
+/**/
+
+@media screen and (min-width: 551px){
+    
+    .background-cover{
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+    
+        background-image: url("../imgs/banner_Site.jpg");
+        background-size: cover;
+        
+        z-index: -1;
+        opacity: 0.9;
+    }
+
+    aside{
+        display: flex;
+        justify-content: center;
+
+        margin-left: 60vw;
+        min-height: 100vh;
+
+        background-color: rgb(20, 20, 20);
+        border-left: 3px dashed brown;
+        overflow: auto;
+    
+        box-shadow: -15px 0px 20px rgba(0, 0, 0, 0.5);
+        opacity: 1;
+        z-index: 1;
+    } 
+
+    footer > p{
+        position: absolute;
+        bottom: 1%;
+        left: 61%;
+        color: white;
+    }
+
+    .exit{
+        position: absolute;
+        top: 3vh;
+        left: 60vw;
+    }
+}
+
+@media screen and (max-width: 550px){
+    
+    html{
+        background-image: url(imgs/banner_Site.jpg);
+    }
+    
+    aside{
+        display: flex;
+        justify-content: center;
+
+        min-height: 100vh;
+        margin: 10px;
+
+        border-radius: 20px;
+
+        background-color: rgb(20, 20, 20);
+        overflow: auto;
+
+        box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.6);
+    } 
+
+    footer > p{
+        position: absolute;
+        bottom: 1%;
+        left: 10%;
+
+        font-size: small;
+        color: white;
+    }
+
+    .exit{
+        position: absolute;
+        top: 3vh;
+        left: 3vw;
+    }
+}
+  
+
+aside > div {
+    position: relative;
+    margin-top: 100px;
+}
+
+aside div * {
+    display: block;
+}
+
+aside div img{
+    position: relative;
+    left: 15px;
+
+    margin-bottom: 50px;
+}
+
+aside div input{
+    border-radius: 50px;
+    padding: 5px;
+    margin: 10px 0px 10px;
+}
+
+aside .acessos{
+    display: flex;
+    align-items: center;
+}
+
+aside .acessos *{
+    margin-right: 25px;
+}
+
+aside .acessos button{
+    padding: 5px 10px 5px;
+
+    border: 1px solid black;
+    border-radius: 50px;
+}

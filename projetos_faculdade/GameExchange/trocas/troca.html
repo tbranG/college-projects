@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="troca.css">
+
+        <script src="../jquery-3.6.0.min.js"></script>
+        <script src="handleTroca.js"></script> 
+    </head>
+    <body>
+        <datalist id="lib-game-list"></datalist>
+        <datalist id="lib-platform-list"></datalist>
+        <datalist id="new-game-list"></datalist>
+        <datalist id="new-platform-list"></datalist>
+        <!-- cabeçalho -->
+        <header>
+            <div class="top-menu">
+                <div class="logo">
+                    <img src="../imgs/Logo.png" alt="logo.png">
+                    <label>ame Exchange</label>
+                </div>
+                <div class="input-area">
+                    <div id="areaBemVindo">
+                        <ul class="cadastro-login">
+                            <li><a href="../login/login.html">Login</a></li>
+                            <li>|</li>
+                            <li><a href="../cadastro/cadastro.html">Cadastro</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-menu">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li>|</li>
+                        <li><a href="../biblioteca/lib.html">Biblioteca</a></li>
+                        <li>|</li>
+                        <li><a href="troca.html">Página de troca</a></li>
+                        <li>|</li>
+                        <li><a href="../busca/busca.html">Lista de jogos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <h2>Troca de Jogos</h2>
+            <section class="game-selector">
+                <div class="meu-jogo">
+                    <h4>Meu jogo</h4>
+                    <img src="../imgs/Wireframe.png" alt="capa">
+                    <input class="lib-game-input" type="text" placeholder="Nome" list="lib-game-list"><br>
+                    <input class="lib-platform-input" type="text" placeholder="Plataforma" list="lib-platform-list">
+                </div> 
+                   
+                <img id="indicador" src="../imgs/IndicadorTroca.png" alt="simbolo">
+                   
+                <div class="jogo-troca">
+                    <h4>Novo jogo</h4>
+                    <img src="../imgs/Wireframe.png" alt="capa">
+                    <input class="new-game-input" type="text" placeholder="Nome" list="new-game-list"><br>
+                    <input class="new-platform-input" type="text" placeholder="Plataforma" list="new-platform-list">
+                </div>
+            </section>
+            <button class="submit-button">Trocar</button>
+            <section class="info">
+                <h2>Informações</h2>
+                <div class="list-grid">
+                    <ul>
+                        <li>Selecione um jogo da sua biblioteca na esquerda e faça sua escolha de troca na direita. A listagem de jogos disponíveis pode ser visualizada na página 'Lista de jogos'.</li><br>
+                        <li>Todos os jogos diponíveis são de mídia digital, um e-mail de confirmação com o código do pruduto será enviado após a troca ser concluida.</li>
+                        
+                    </ul>
+                    <ul>
+                        <li>As plataformas suportadas são: <br> <b>PC:</b> Steam <br><b>PS4, PS5:</b> Playstation Store <br><b>Xbox One, Xbox Series X:</b> Microsoft Store</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <!-- rodapé -->
+        <footer>
+            <p>@Copyright 2022. Todos os direitos reservados</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,517 @@
+{
+    "disponiveis" : [
+        {
+            "nome" : "Grand Theft Auto 5",
+            "plataformas" : [
+                "Xbox One",
+                "Xbox Series X",
+                "Ps4",
+                "Ps5",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c255cc8c8622d97196866fd3fb955dce.png",
+            "info" : "Quando um malandro de rua, um ladrão de bancos aposentado e um psicopata aterrorizante se envolvem com alguns dos criminosos mais assustadores e loucos do submundo, o governo dos EUA e a indústria do entretenimento, eles devem realizar golpes ousados para sobreviver nessa cidade implacável onde não podem confiar em ninguém, nem mesmo um no outro."
+        },
+        {
+            "nome" : "Fifa 22",
+            "plataformas" : [
+                "Xbox One",
+                "Xbox Series X",
+                "Ps4",
+                "Ps5",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f68bb6d93ded87d56f5dc9e50d2dbf5e.png",
+            "info" : "Powered by Football™, EA SPORTS™ FIFA 22 deixa o jogo ainda mais real com avanços fundamentais de jogabilidade e uma nova temporada de inovações em todos os modos. O que é o FIFA? Jogue o Maior Jogo do Mundo com +17.000 jogadores, mais de 700 times em +90 estádios e mais de 30 ligas de todo o mundo."
+        },
+        {
+            "nome" : "God Of War",
+            "plataformas" : [
+                "Ps4",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5855660034a74cfe0e5fc8d57d17f4ac.png",
+            "info" : "Com a vingança contra os deuses do Olimpo em um passado distante, Kratos agora vive como um mortal no reino dos deuses e monstros nórdicos. É nesse mundo duro e implacável que ele deve lutar para sobreviver... e ensinar seu filho a fazer o mesmo"
+        },
+        {
+            "nome" : "Horizon Zero Dawn",
+            "plataformas" : [
+                "Ps4",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9d3f5cd9d17bc6ba945057eefe6dbd77.jpg",
+            "info" : "Horizon Zero Dawn™ é um RPG de aventura e ação vencedor de vários prêmios – e esta Edição Completa inclui a expansão The Frozen Wilds, com novos territórios e novas habilidades, armas e Máquinas."
+        },
+        {
+            "nome" : "Red Dead Redemption 2",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "Xbox Series X",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/8a27d37cd175197e87c02a7fc7eb192d.png",
+            "info" : "Arthur Morgan e a gangue Van der Linde são bandidos em fuga. Com agentes federais e os melhores caçadores de recompensas no seu encalço, a gangue precisa roubar, assaltar e lutar para sobreviver no impiedoso coração dos Estados Unidos. Conforme divisões internas profundas ameaçam despedaçar a gangue, Arthur deve fazer uma escolha entre os seus próprios ideais e a lealdade à gangue que o criou"
+        },
+        {
+            "nome" : "Elden Ring",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC",
+                "Ps5",
+                "Xbox Series X"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6c058d152880fa8595cd3577ffcc25f0.jpg",
+            "info" : "O NOVO RPG DE AÇÃO E FANTASIA. Levante-se, Maculado, e seja guiado pela graça para portar o poder do Anel Prístino e se tornar um Lorde Prístino nas Terras Intermédias"
+            
+        },     
+        {
+            "nome" : "Need for Speed",
+            "plataformas" : [
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d02fbe76940ea2aef0dba397ceabb0b0.png",
+            "info" : "Tudo pronto para dominar as ruas? Sente-se atrás do volante de carros icônicos e acelera por Ventura Bay, uma grande área urbana. Explore histórias interconectadas à medida que constrói sua reputação – e seu carro dos sonhos – e se torna um dos maiores ícones de corrida. Jogue de novo e de novo porque, desta vez, você tem 5 maneiras diferentes de vencer."
+        },
+        {
+            "nome" : "Marvel's Spider-Man",
+            "plataformas" : [
+                "Ps4",
+                "Ps5",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1bc38477bc1f540837e39eb0b8dbb520.png",
+            "info" : "Desenvolvido pela Insomniac Games em colaboração com a Marvel e otimizado para PC pela Nixxes Software, Marvel's Spider-Man Remasterizado no PC apresenta um Peter Parker experiente que combate as maiores ameaças do crime e vilões icônicos na Nova York da Marvel. Em contrapartida, ele luta para conciliar sua vida pessoal e carreira caóticas enquanto o destino da Nova York da Marvel pesa sobre seus ombros."
+        },
+        {
+            "nome" : "Battlefield 1",
+            "plataformas" : [
+                "PC",
+                "Ps4",
+                "Xbox One"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5f2cec9d7c7078209559b2838b427b2f.png",
+            "info" : "Junte-se à comunidade de Battlefield™ e entre em batalhas épicas da Grande Guerra neste aclamado jogo de tiro em primeira pessoa. Aclamado pela crítica, Battlefield 1 recebeu o prêmio Games Critics Awards Best of E3 2016: Melhor Jogo de Ação e o prêmio de Melhor Jogo de Ação pela Gamescom em 2016."
+        },
+        {
+            "nome" : "Efootball 2022",
+            "plataformas" : [
+                "Ps4",
+                "Ps5",
+                "Xbox One",
+                "Xbox Series X",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3c375548eff66e53503c807a6887ee61.jpg",
+            "info" : "Uma nova era do futebol digital: o PES está evoluindo para eFootball™! E agora você pode curtir o próximo capítulo dos jogos de futebol com o eFootball™ 2022"
+        },
+        {
+            "nome" : "Control",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f66a0c26ea3a640283a18af4915c577a.png",
+            "info" : "Uma presença corrupta invadiu o Departamento Federal de Controle... Somente você tem o poder para impedí-la. O mundo agora é sua arma em uma luta épica para aniquilar um inimigo assustador através dos ambientes profundos e imprevisíveis. A contenção falhou, a humanidade está em risco. Você vai recuperar o controle?"
+        },
+        {
+            "nome" : "Cities: Skylines",
+            "plataformas" : [
+                "Ps4",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9879bd2c9b133e742d2f16e1b066f584.png",
+            "info" : "Cities: Skylines é uma versão moderna dos simuladores de cidade clássicos. O jogo introduz novos elementos de jogabilidade para que você sinta a emoção e a dificuldade de criar e manter uma cidade de verdade, além de aprimorar os elementos clássicos da construção de cidades"
+        },
+        {
+            "nome" : "Forza Horizon 5",
+            "plataformas" : [
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6abd5c03e1414f4600add2d7956bb442.png",
+            "info" : "Sua maior aventura Horizon te espera! Lidere impressionantes expedições pelo mundo aberto vibrante e em constante evolução nas terras mexicanas. Participe de corridas divertidas e sem limites enquanto pilota centenas dos melhores carros do mundo."
+        },
+        {
+            "nome" : "Death Stranding",
+            "plataformas" : [
+                "Ps4",
+                "Ps5",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a4c88bd827bdad1f65648774ca1a8c4c.png",
+            "info" : "No futuro, um evento misterioso conhecido como Death Stranding abriu uma passagem entre os vivos e os mortos, resultando em criaturas grotescas do pós-vida andando pelo mundo arruinado, marcado por uma sociedade desolada."
+            
+        },
+        {
+            "nome" : "Resident Evil 7 Biohazard",
+            "plataformas" : [
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c649c544153950c2ef6bd88e66f64dd1.png",
+            "info" : "Resident Evil 7 biohazard é o próximo grande lançamento da renomada série Resident Evil e cria um novo curso para a franquia ao trazer à tona suas raízes e abrir a porta pra uma experiência de horror realmente aterrorizante. Uma mudança dramática na série para uma visão em primeira pessoa em um estilo fotorrealista, gerido pelo novo RE Engine da Capcom, Resident Evil 7 traz um nível de imersão sem precedentes que torna a trama de horror mais próxima e pessoal."
+        },
+        {
+            "nome" : "The Quarry",
+            "plataformas" : [
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/bea59a3d5b775852b529e491f411a5e8.png",
+            "info" : "Os planos dos adolescentes acabam se transformando em uma noite de horrores quando eles percebem que estão sendo caçados por moradores locais e algo muito mais sinistro. Brincadeiras e flertes entre amigos dão lugar a decisões de vida ou morte, e as relações entre eles vão se fortalecer ou quebrar com a pressão dessas escolhas inimagináveis."
+        },
+        {
+            "nome" : "Until Dawn",
+            "plataformas" : [
+                "Ps4"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ccb9ccb1d01d126e1fc0f9524f8ca0e0.png",
+            "info" : "Durante as comemorações, alguns do grupo conspiram para fazer uma brincadeira com Hannah, que é cegamente apaixonada por Mike. Enquanto Josh e Chris estão desmaiados bêbados na cozinha, Mike convida Hannah para o quarto de hóspedes. Sem o conhecimento dela, Jess, Emily, Matt e Ashley ficam escondidos no quarto a espera dela. Enquanto Mike a convence a começar a tirar a roupa, Jess acidentalmente revela a presença do grupo e, ao fazê-lo, humilha Hannah ao mesmo tempo que Sam aparece para avisá-la, descobrindo que era tarde demais."
+        },
+        {
+            "nome" : "Watch Dogs 2",
+            "plataformas" : [
+                "Xbox One",
+                "Ps4",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3ae113b8a46fae273df332bf6ae39a0e.png",
+            "info" : "Na pele de Marcus Holloway, tens a missão de mandar abaixo o ctOS 2.0. Transforma os teus olhos numa arma secreta com o Tobii Eye Tracking, à medida que tentas impedir que a Blume Corp corrompa a baia de São Francisco"
+            
+        },
+        {
+            "nome" : "The Witcher 3: Wild Hunt",
+            "plataformas" : [
+                "PC",
+                "Xbox One",
+                "Ps4"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2f87d717bf556321774d1b4975d2e1c1.png",
+            "info" : "The Witcher: Wild Hunt é um RPG de mundo aberto de fantasia cheio de escolhas vitais. Em The Witcher, você joga como um caçador de monstros profissional, Geralt de Rívia, em busca da criança da profecia em um vasto mundo aberto, rico em cidades mercantis, ilhas piratas, passagens perigosas nas montanhas e cavernas esquecidas a serem exploradas."
+        },
+        {
+            "nome" : "The Elder Scrolls 5: Skyrim",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/81eb8c3166ba84d9de66eb843738134b.png",
+            "info" : "The Elder Scrolls V: Skyrim, Jogo do Ano de 2011, é o próximo capítulo da tão esperada saga Elder Scrolls – desenvolvido pela Bethesda Game Studios, o Estúdio do Ano de 2011 que trouxe Oblivion e Fallout 3. Skyrim reinventa e revoluciona a épica história de fantasia em mundo aberto, trazendo à vida um universo virtual completo para você explorar da forma que preferir"
+        },
+        {
+            "nome" : "Tomb Raider",
+            "plataformas" : [
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f119555ebb5f2482340618251c49de4d.png",
+            "info" : "Tomb Raider explora a intensa história de origem de Lara Croft, e sua ascensão de uma jovem mulher a uma sobrevivente experiente. Armada apenas com os seus instintos e a capacidade de ir além dos limites da resistência humana, Lara precisa lutar para desvendar a história sombria de uma ilha esquecida para fugir das suas garras. Baixe o trailer Turning Point para ver o começo da aventura épica de Lara."
+        },
+        {
+            "nome" : "Maneater",
+            "plataformas" : [
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7f803f86c527f4c7dd229c53ef4ff11b.png",
+            "info" : "Vivencie a maior fantasia de força como um predador alfa dos mares: um terrível TUBARÃO! Maneater é um RPG (ShaRkPG) de ação para um jogador em mundo aberto no qual VOCÊ é o tubarão. Você começa como um filhote de tubarão que deve sobreviver no mundo cruel enquanto devora tudo pelo ecossistema. Para isso, você explorará um mundo aberto e variado, encontrando vários inimigos — tanto humanos quanto selvagens. Encontre os recursos certos para crescer e evoluir muito além do que a natureza planejou para que você adapte o tubarão ao seu estilo de jogo. Isso é bom, pois, para se vingar do pescador cruel que mutilou você, será necessário evoluir até se tornar um tubarão imenso — um lendário predador alfa. Coma. Explore. Evolua."
+        },
+        {
+            "nome" : "Fortnite",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6c4d541fc68d426aa028bc05f38164d1.png",
+            "info" : "Um jogo de tiro competitivo 5x5 com personagens da Riot Games. Disponível no mundo todo. Centenas de maneiras de jogar, o único limite é a sua criatividade. 5x5. Novos mapas. Jogo em Equipe. Alta letalidade. Precisão. Esports. Anticheat. Novos Agentes."
+        },
+        {
+            "nome" : "Far Cry 6",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7bdf2ad917c906688299bcad0929cfc4.png",
+            "info" : "Bem-vindo a Yara, um paraíso tropical parado no tempo. Far Cry® 6 leva os jogadores ao mundo cheio de adrenalina de uma revolução moderna de guerrilha. Como ditador de Yara, Antón Castillo está empenhado em restaurar sua nação de volta à sua antiga glória por qualquer meio, com seu filho, Diego, obedientemente ao seu lado. Torne-se um guerrilheiro e destrua o regime deles."
+        },
+        {
+            "nome" : "Assassin's Creed Valhalla",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/af50264461fcfe35772e8dc2df28f87f.png",
+            "info" : "Torne-se Eivor, um invasor Viking poderoso, e leve seu clã das adversas costas da Noruega para um novo lar em meio às exuberantes terras agrícolas da Inglaterra do século IX. Explore um belo e misterioso mundo aberto onde você enfrentará inimigos brutais, atacará fortalezas, estabelecerá um novo assentamento para seu clã e formará alianças para alcançar a glória e garantir um lugar em Valhalla."
+        },
+        {
+            "nome" : "Cuphead",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/25dcf1554f13c36b512dfe907acc77d3.png",
+            "info" : "Cuphead é um jogo de ação e tiros clássico, com enorme ênfase nas batalhas de chefes. Inspirado nas animações infantis da década de 1930, os visuais e efeitos sonoros foram minuciosamente recriados com as mesmíssimas técnicas dessa era, com destaque para desenhos feitos à mão, fundos em aquarela e gravações originais de jazz"
+        },
+        {
+            "nome" : "CyberPunk 2077",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4030e2eebb977639f8836aa25a293e40.png",
+            "info" : "Cyberpunk 2077 é um RPG de ação e aventura em mundo aberto ambientado na megalópole de Night City, onde você é um mercenário cyberpunk envolvido em uma intensa luta pela sobrevivência. Com diversas melhorias e conteúdo adicional gratuito, personalize o seu personagem e o seu estilo de jogo conforme aceita trabalhos, construa uma reputação e desbloqueie melhorias. Seus relacionamentos e suas escolhas moldarão a história e o mundo ao seu redor. Aqui nascem as lendas. Qual será a sua?"
+        },
+        {
+            "nome" : "The Escapists",
+            "plataformas" : [
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5b4ba6e852444462a8e1223fc42e1af8.png",
+            "info" : "Você caiu na prisão novamente e sua única chance é planejar uma fuga por qualquer meio necessário. Como você faz isso é com você! Por que não causar um motim na prisão? Ou cavar um túnel logo abaixo das paredes da prisão? Ou até mesmo roubar um uniforme de guarda para se misturar com seus captores?"
+        },
+        {
+            "nome" : "Dying Light",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/733fb39ab60bf067bdb17038419b9551.png",
+            "info" : "Sobreviva em uma cidade assolada por um vírus zumbi! Faça escolhas difíceis na sua missão secreta. A sua lealdade aos seus superiores é maior que a sua vontade de resgatar sobreviventes? A escolha é sua…"
+            
+        },
+        {
+            "nome" : "The Last of Us",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/849d7b8124e44421cf640466299db4dc.png",
+            "info" : "Cidades abandonadas retomadas pela natureza. Uma população dizimada por uma praga moderna. Os sobreviventes matam uns aos outros por comida, armas e qualquer outra coisa em que puderem botar as mãos. Joel, um sobrevivente brutal, e Ellie, uma adolescente corajosa e madura apesar da pouca idade, devem unir forças para saírem vivos da sua jornada pelos Estados Unidos."
+            
+        },
+        {
+            "nome" : "The Last of Us Part 2",
+            "plataformas" : [
+                "Ps4",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3a96a1164364c063f40ce33aaf971783.png",
+            "info" : "Cinco anos depois da jornada perigosa pelos Estados Unidos pós-pandêmicos, Ellie e Joel se estabelecem em Jackson, Wyoming. A vida em uma próspera comunidade de sobreviventes lhes trouxe paz e estabilidade, apesar da ameaça constante dos infectados e de outros sobreviventes mais desesperados. Quando um evento violento interrompe essa paz, Ellie embarca em uma jornada implacável para fazer justiça e encontrar uma solução. Enquanto vai atrás de cada um dos responsáveis, ela se confronta com as repercussões físicas e emocionais devastadoras de suas ações."
+            
+        },
+        {
+            "nome" : "Red Dead Redemption",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a9f9ef04f6c8bcc449084e0cc4183cf7.png",
+            "info" : "Estados Unidos, início do século XX. A era dos cowboys está chegando ao fim. Quando os agentes federais ameaçam a sua família, o ex-fora-da-lei John Marston é mandado até a fronteira norte-americana para ajudar a construir o império da ordem. Vivencie tiroteios intensos, assaltos a trens emocionantes, caçadas e duelos em um tempo de mudança violenta."
+            
+        },
+        {
+            "nome" : "Battlefield 2042",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/06cbf59777880dfb10eeec416060f163.jpg",
+            "info" : "Libere o inesperado com Battlefield™ 2042 – Temporada 1: Hora Zero. Alcance novos patamares com helicópteros furtivos de alta tecnologia em Exposição, um novo mapa montanhoso. Posicione-se como a nova Especialista Ewelina Lis usando seu lança-foguetes G-84 TGM para abrir caminho pelos céus enquanto leva seu pelotão à vitória com equipamento de ponta"
+            
+        },
+        {
+            "nome" : "Rainbow Six Siege",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6df0f11ac980d2c59e5b4dab6a8e7611.png",
+            "info" : "Domine a arte da destruição e do uso de gadgets em Tom Clancy’s Rainbow Six Siege. Enfrente combates intensos em curta distância, alta letalidade, decisões táticas, jogabilidade em equipe e ação explosiva a todo momento. Vivencie uma nova era de tiroteios ferozes e estratégia de alto nível nascida do grande legado dos jogos de Tom Clancy's Rainbow Six passados."
+            
+        },
+        {
+            "nome" : "Dragon Age Inquisition",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6b7e5dd8e735ac7504cd75e04acc097b.png",
+            "info" : "Quando o céu se rasga e o caos desaba sobre a terra, o mundo precisa de heróis. Torne-se o salvador ou a salvadora de Thedas no Dragon Age: Inquisition – Game of the Year Edition. Você é o Inquisidor ou a Inquisidora com a obrigação de salvar o mundo de si mesmo. Mas a estrada à frente está repleta de decisões difíceis. Thedas é uma terra em conflito. Facções guerreiam constantemente entre si quando começa uma imensa invasão demoníaca. E você? Você e seu bando de campeões são os únicos que podem mantê-la unida. É seu trabalho liderá-los... ou será o fim"
+            
+        },
+        {
+            "nome" : "Minecraft",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a73027901f88055aaa0fd1a9e25d36c7.png",
+            "info" : "Em Minecraft, os jogadores exploram um mundo aberto tridimensional intencionalmente em blocos, pixelizado e gerado proceduralmente, podendo descobrir e extrair matérias-primas, ferramentas artesanais, construir estruturas ou terraplenagens e, dependendo do modo de jogo, podem combater inimigos controlados por computador, bem como cooperar ou competir contra outros jogadores no mesmo mundo. Esses modos incluem um modo sobrevivência, no qual o jogador precisa adquirir recursos para construir o mundo e se manter vivo, e um modo criativo, onde os jogadores têm recursos ilimitados. Em Java Edition, os jogadores podem modificar a jogabilidade com mods para criar novas mecânicas de itens, texturas, entre outros."
+        },
+        {
+            "nome" : "Bioshock",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e2a6b4560a2004ec7d1e9f4f407734ef.png",
+            "info" : "BioShock é um shooter diferente de todos que você já jogou, carregado de armas e táticas nunca vistas. Você terá um arsenal completo à sua disposição, de simples revólveres a lançadores de granadas e lançadores de produtos químicos, mas também será forçado a modificar geneticamente seu DNA para criar uma arma ainda mais mortal: você. Plasmídeos injetáveis ​​dão a você poderes super humanos: exploda correntes elétricas na água para eletrocutar vários inimigos, ou congele-os e os elimine com o balanço de uma chave inglesa."
+            
+        },
+        {
+            "nome" : "Bioshock 2",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/744432a37c7d535703a9e5e722ce75e0.png",
+            "info" : "Situado aproximadamente 10 anos após os eventos do BioShock original, os salões de Rapture mais uma vez ecoam com os pecados do passado. Ao longo da costa atlântica, um monstro está pegando garotinhas e as trazendo de volta para a cidade submarina de Rapture. Os jogadores assumem as botas do habitante mais icônico de Rapture, o Big Daddy, enquanto viajam pela decrépita e bela cidade caída, perseguindo um inimigo invisível em busca de respostas e sua própria sobrevivência."
+            
+        },
+        {
+            "nome" : "Bioshock Infinite",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/8d6fa6ad41c23aa2ae2357c8beb39bcd.jpg",
+            "info" : "Em dívida com as pessoas erradas, com sua vida em jogo, veterano da Cavalaria dos EUA e agora contratado, Booker DeWitt tem apenas uma oportunidade de limpar sua lousa. Ele deve resgatar Elizabeth, uma garota misteriosa presa desde a infância e trancada na cidade voadora de Columbia. Forçados a confiar um no outro, Booker e Elizabeth formam um vínculo poderoso durante sua ousada fuga. Juntos, eles aprendem a dominar um arsenal de armas e habilidades em expansão, enquanto lutam em zepelins nas nuvens, ao longo de linhas do céu de alta velocidade e nas ruas de Columbia, enquanto sobrevivem às ameaças da cidade aérea e descobrindo seu segredo obscuro"
+            
+        },
+        {
+            "nome" : "Fallout 4",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/b5209fa882c43a2d47dc6f0243e9d64f.png",
+            "info" : "Como o único sobrevivente do Vault 111, você entra em um mundo destruído pela guerra nuclear. Cada segundo é uma luta pela sobrevivência, e cada escolha é sua. Só você pode reconstruir e determinar o destino de Wasteland. Bem-vindo a casa"
+            
+        },
+        {
+            "nome" : "Ghost of tsushima",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/583f7f4ba7f952d0eb6cc16d1cd5681f.png",
+            "info" : "Aventure-se além dos campos de batalha e vivencie o Japão feudal de uma forma nunca antes vista. Neste jogo de ação e aventura em mundo aberto, ande por paisagens vastas, encontre personagens complexos, descubra monumentos antigos e revele a beleza oculta de Tsushima."
+            
+        },
+        {
+            "nome" : "Back 4 Blood",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a81458a100984a00515a06d4a1317c11.png",
+            "info" : "Back 4 Blood é um jogo de tiro em primeira pessoa dos criadores da franquia aclamada pela crítica Left 4 Dead. Você está no centro de uma guerra contra os contagiados. Esses humanos portadores de um parasita mortal se transformaram em criaturas assustadoras inclinadas a devorar os restos da civilização. Com a extinção da humanidade em jogo, cabe a você e seus amigos enfrentar esse inimigo, erradicar os corrompidos e reconquistar o mundo."
+            
+        },
+        {
+            "nome" : "Mortal Kombat X",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1310027e3cc8905b006af624e99937d0.png",
+            "info" : "Mortal Kombat X combina uma apresentação cinematográfica sem igual com uma jogabilidade nova, formando os Kombates mais brutais da história. Pela primeira vez, Mortal Kombat X possibilita a escolha entre múltiplos estilos para cada personagem, afetando tanto a estratégia como também as técnicas de luta"
+            
+        },
+        {
+            "nome" : "Destiny",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7ce8d085f2949d320015a3fd53c2f74b.png",
+            "info" : "Tudo mudou com a chegada do Viajante. Marcou a Era Dourada quando a nossa civilização se espalhava pelo Sistema Solar, mas não durou muito. Algo nos atingiu. Os sobreviventes criaram uma cidade por baixo do Viajante, e começaram a explorar os nossos mundos antigos, apenas para encontrarem inimigos mortais. Tu és o Guardião da última cidade segura na Terra, capaz de exercer um enorme poder. Defende a Cidade. Derrota os nossos inimigos. Reclama o que perdemos. Fracassa e a última luz da nossa civilização irá se apagar."
+            
+        },
+        {
+            "nome" : "Assassin's Creed Odyssey",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ddf36ce0658efd6eaaaddb4aa9de7c7e.png",
+            "info" : "Decida o seu destino em Assassin's Creed® Odyssey. De exilado à lenda viva, embarque em uma odisseia para descobrir os segredos do seu passado e mudar o destino da Grécia Antiga"
+            
+        },
+        {
+            "nome" : "Sonic Mania",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d8e9010aff2b4bb497d6288af628e23f.png",
+            "info" : "Vive a celebração definitiva do passado e do futuro no Sonic Mania, uma nova aventura Sonic em 2D que corre a uns fantásticos 60 fps com um grafismo HD espantoso de estilo rétro. As várias personagens jogáveis dão-te a capacidade para correr de forma explosivamente rápida com Sonic, voar pelos ares com Tails ou acelerar através dos obstáculos com a força bruta de Knuckles."
+        },
+        {
+            "nome" : "Dark Souls 3",
+            "plataformas" : [
+                "Ps4",
+                "Xbox One",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9085f5ef67f2f7f0f38e869ffb5016a1.png",
+            "info" : "Com o fogo se apagando e o mundo caindo em ruínas, você precisa se aventurar em um universo repleto de inimigos e ambientes colossais. Jogadores entrarão em um mundo de trevas e atmosfera épica, com uma jogabilidade mais ágil e combates mais intensos. Agora só restam cinzas... Prepare-se para abraçar a escuridão mais uma vez!"
+            
+        },
+        {
+            "nome" : "Uncharted 4: A Thief's End",
+            "plataformas" : [
+                "Ps4",
+                "Ps5",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ea60878f56015af940226ebfc5c0296c.png",
+            "info" : "Vários anos após sua última aventura, o aposentado caçador de tesouros, Nathan Drake, é forçado a voltar para o mundo dos ladrões. Com riscos muito mais pessoais, Drake embarca em uma jornada pelo mundo em busca de uma conspiração histórica por trás de um famoso tesouro pirata. Sua maior aventura testará seus limites físicos, sua determinação e, finalmente, o que ele está disposto a sacrificar para salvar quem ama"
+            
+        },
+        {
+            "nome" : "Gears 5",
+            "plataformas" : [
+                "Xbox One",
+                "Xbox Series X",
+                "PC"
+            ],
+            "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/170c24439fecca3c09ea7adc5344d829.png",
+            "info" : "Com a guerra de todas as frentes em andamento, Kait Diaz foge para descobrir sua conexão com o inimigo e descobre quem é o verdadeiro perigo para Sera – ela mesma. Com os novos recursos da campanha, leve suas skins de personagens e de armas em novas aventuras e divirta-se com dificuldades e modificadores bônus."
+            
+        },
+        {
+            "nome" : "Stardew Valley",
+            "plataformas" : [
+                "PC",
+                "Ps4",
+                "Xbox One"
+            ],
+          "capa" : "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/996e24639b91722571c81723760023e0.png",
+          "info" : "Você herdou a antiga fazenda do seu avô, em Stardew Valley. Com ferramentas de segunda-mão e algumas moedas, você parte para dar início a sua nova vida. Será que você vai aprender a viver da terra, a transformar esse matagal em um próspero lar?"
+        }
+        
+    ]
+}

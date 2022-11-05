@@ -1,0 +1,134 @@
+/* #region config gerais*/
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+aside{
+    color: white;
+}
+
+.main-area{
+    background-color: rgb(20, 20, 20);
+    border: 3px dashed brown;
+    border-radius: 20px;
+    z-index: 1;        
+}
+
+.main-area > h2{
+    text-align: center;
+}
+
+section *{
+    margin-bottom: 5px;
+}
+
+section button{
+    padding: 5px 10px 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+section button:hover{
+    cursor: pointer;
+}
+
+div[class="datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-bottom"]{
+    background: white;
+    position: absolute;
+    margin: 20vh 0px 0px 0px;
+}
+/* #endregion */
+
+/* #region media queries */
+@media screen and (min-width : 551px){
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.background{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+    z-index: -1;
+    overflow: auto;
+
+    background-image: url("../imgs/banner_Site.jpg");
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.main-area{
+    position: absolute; 
+    margin: 10vh auto 0px;
+
+    padding: 0px 100px 0px;
+    height: 89vh;
+
+    box-shadow: 20px -20px 20px rgba(0, 0, 0, 0.4);
+}
+.main-area *{
+    position: relative;
+    margin-left: auto;
+}
+.name-input{
+    display: flex;
+
+}
+.name-input div{
+    padding-right: 10px;
+}
+.password-input{
+    display: flex;
+}
+.password-input div{
+    padding-right: 10px;
+}
+}
+
+@media screen and (max-width : 550px){
+
+html{
+    background-image: url("../imgs/banner_Site.jpg");
+}
+
+.main-area{
+
+    margin: 10px;
+    height: 95vh;
+    width: 95vw;
+
+    box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.6);
+}
+
+.main-area > h2{
+    display: block;
+    margin: 0px;
+    padding: 10px;
+}
+
+.main-area section{
+    position: relative;
+    margin: 0px 25% 0px;
+}
+
+/* fix posicionamento do calendário */
+div[class="datepicker datepicker-dropdown dropdown-menu datepicker-orient-right datepicker-orient-top"]{
+    background: white;
+    position: absolute;
+    margin: 2vh 0px 0px 0px;
+}
+div[class="datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-top"]{
+    background: white;
+    position: absolute;
+    margin: 2vh 0px 0px 0px;
+}
+}
+/* #endregion */

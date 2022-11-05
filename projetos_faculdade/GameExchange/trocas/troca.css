@@ -1,0 +1,205 @@
+/* definições gerais*/
+html{
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    color: black;
+}
+/**/
+
+/* formatação do cabeçalho */
+header .top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(35, 35, 35);
+}
+
+header .top-menu .logo{
+    display: flex;
+    align-items: center;
+}
+
+header .top-menu .logo label{
+    
+    color: white;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header .sub-menu nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+    margin: 0px;
+    padding: 3px;
+
+    background-color: brown;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    color: white;
+
+}
+
+header .logo img{
+    width: 50px;
+}
+
+header .input-area{
+    display: flex;
+    align-items: center;
+
+    padding: 0px 10px;
+}
+
+header .input-area ul{
+    display: flex;
+    list-style: none;
+
+    color: white;
+    padding: 0px 5px;
+}
+
+header .input-area ul li{
+    padding-right: 10px;
+}
+/**/
+
+#areaBemVindo p{
+    color: white;
+}
+#areaBemVindo button{
+    background-color: brown;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+#areaBemVindo button:hover{
+    cursor: pointer;
+}
+
+/* formatação corpo */
+
+main{
+    background-color: rgb(43, 48, 75);
+    background-image: radial-gradient(rgb(56, 62, 99), rgb(10, 13, 34));      
+}
+
+main > h2{
+    color: white;
+    margin: 0px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.game-selector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 800px;
+    margin: 0px auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+
+    background-color: rgba(20, 20, 20, 0.8);
+}
+
+.game-selector h4{
+    margin: 0px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+.meu-jogo img{
+    display: block;
+    margin: 0px auto 10px;
+    width: 160px;
+    height: 220px;
+}
+.jogo-troca img{
+    display: block;
+    margin: 0px auto 10px;
+    width: 160px;
+    height: 220px;
+}
+
+#indicador{
+    margin-top: 100px;
+}
+
+section > img{
+    width: 100px;
+    height: 100px;
+}
+
+.game-selector div input{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.submit-button{
+    display: block;
+    margin: 10px auto 0px;
+    padding: 10px 20px;
+    
+    background-color: brown;
+    color: white;
+    
+    font-size: large;
+
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.submit-button:hover{
+    cursor: pointer;
+}
+
+.info{
+    max-width: 800px;
+    margin: 10px auto 0px;
+
+    padding-bottom: 20px;
+    border-radius: 30px;
+
+    background-color: rgba(20, 20, 20, 0.8);
+    color: white;
+}
+
+.info h2{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.list-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/**/
+
+/* rodapé */
+footer {
+    background-color: brown;
+    color: white;
+}
+
+footer p{
+    margin: 0px;
+    padding: 10px 5px 10px;
+}

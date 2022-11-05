@@ -1,0 +1,235 @@
+/* config gerais */
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    color: black;
+}
+/**/
+
+/* #region formatação cabeçalho */
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(35, 35, 35);
+}
+
+.top-menu .logo{
+    display: flex;
+    align-items: center;
+}
+
+.top-menu .logo label{
+    
+    color: white;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sub-menu nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+    margin: 0px;
+    padding: 3px;
+
+    background-color: brown;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    color: white;
+
+}
+
+.logo img{
+    width: 50px;
+}
+
+.input-area{
+    display: flex;
+    align-items: center;
+
+    padding: 0px 10px;
+}
+
+.input-area ul{
+    display: flex;
+    list-style: none;
+
+    color: white;
+    padding: 0px 5px;
+}
+
+.input-area ul li{
+    padding-right: 10px;
+}
+/* #endregion */
+
+/* #region formatação seções do corpo */
+section{
+    padding: 15px;
+}
+
+section.intro{
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.8);
+    z-index: 2;
+
+    color: white;
+}
+
+section.intro h2{
+    text-align: center;
+
+    margin-bottom: 10px;
+    
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+section.info{
+    position: relative;
+    z-index: -1;
+
+    background-color: rgb(35, 35, 35);
+    color: white;
+    
+}
+
+section.exemplo{
+    background-color: rgb(43, 48, 75);
+    background-image: radial-gradient(rgb(43, 48, 75), rgb(14, 18, 41));
+    border-top: 1px solid white;
+}
+
+section.exemplo h3{
+    color: white;
+}
+
+section.exemplo .thumbs img{
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+section.exemplo div.thumbs{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+/* #endregion */
+
+/* botão */
+.intro button{
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+
+    border: none;
+}
+
+#assinar:hover{
+    cursor: pointer;
+}
+
+/* formatação rodapé */
+footer{
+    background-color: brown;
+    color: white;
+}
+
+footer p{
+    margin: 0px;
+    padding: 10px;
+}
+
+/* formatação banner */
+.intro{
+    background-image: url("imgs/banner1.jpg");
+    background-size: cover;
+}
+/* formatação bem vindo */
+
+#areaBemVindo p{
+    color: white;
+}
+#areaBemVindo button{
+    background-color: brown;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+#areaBemVindo button:hover{
+    cursor: pointer;
+}
+
+/* #region media queries */
+@media screen and (min-width : 551px) {
+    section.intro div.main-content{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    
+        padding: 45px 0px;
+    }
+    
+    section.exemplo div.thumbs img{
+        width: 180px;
+        height: 250px;
+    
+        margin: 20px;
+    }
+    
+    section.exemplo div.thumbs img:nth-child(odd){
+        width: 120px;
+        height: 180px;
+    }
+
+    .intro div img{
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width : 550px) {
+    .sub-menu {
+        display: none;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    section.exemplo div.thumbs img{
+        width: 100px;
+        height: 140px;
+    
+        margin: 10px;
+    }
+    
+    section.exemplo div.thumbs img:nth-child(odd){
+        width: 70px;
+        height: 100px;
+    }
+
+    .intro div img {
+        position: relative;
+        display: block;
+        margin: 0px auto;
+
+        width: 150px;
+    }
+}
+/* #endregion */
