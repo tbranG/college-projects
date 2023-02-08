@@ -1,0 +1,123 @@
+html,body,#home{
+    height: 100%;
+    overflow-x: hidden;
+}
+body{
+    background: linear-gradient(50deg, #8c99d3, #50238f);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Classes gerais*/
+.capa{
+    text-align: center;
+}
+.btn-branco{
+    color: white;
+}
+.btn-custom{
+    margin: 10px 0;
+    padding: 10;
+    background-color: #50238f;
+    border-radius: 20px;
+}
+.btn-custom:hover{
+    background-color: #5b4891;
+    color: white;
+}
+.btn-cinza{
+    background-color: #8c99d3;
+    transition: background-color 0.5s;
+}
+.btn-cinza:hover{
+    background-color: #50238f;
+    color: #fff;
+}
+.btn-gigante{
+    font-size: 1.6em;
+    color: #fff;
+    background-color: #8c99d3;
+    width: 50vw;
+    height: 10vh;
+    border-radius: 10px;
+    box-shadow: 3px 7px #cbd0e6;
+    transition: 0.3s;
+    
+}
+.btn-gigante:hover{
+    color: #cbd0e6;
+    width: 51vw;
+    height: 11vh;
+    background-color: #8c99d3;
+    box-shadow: 5px 9px #cbd0e6;
+}
+h1,p{
+    color: white;
+}
+.fa-solid{
+    color: #fff;
+}
+
+.fa-solid:hover{
+    color: #8c99d3;
+}
+.fa-paper-plane{
+    color: #50238f;
+}
+
+/*Nav*/
+#user-view{
+	cursor: pointer;
+	font-size : 2em;
+	margin : 0px 25px;
+}
+#user-view i{
+	color : #50238f;
+}
+.user-menu{
+	background-color: #f8f9fa;
+	position: absolute;
+	
+	padding: 2% 3%;
+	border-radius: 10px;
+	left: 80vw;
+	top: 15vh;
+}
+
+/**/
+.list-group{
+	margin: 0vh 20vw 0vh;
+	padding-top: 20vh;
+	
+	background-color: white;
+	height: 100vh;
+	overflow: scroll;
+	
+	border-left: 4px solid #cfcfcf;
+	border-right: 4px solid #cfcfcf;
+}
+.list-group h1{
+	text-align: center;
+	color: grey;
+	border-bottom: 1px solid #cfcfcf;
+}
+.evento-grupo{
+	display: flex;
+	justify-content: space-between;
+
+	margin: 10px;
+	padding: 5px;
+	
+	background-color: #cfcfcf;
+	border-radius: 10px;
+	border-bottom: 2px solid #87c0fa;
+}
+.fa-pen{
+	font-size: 1.4em;
+	margin: 5px;
+	color: blue;
+}
+.fa-circle-xmark{
+	font-size: 1.4em;
+	margin: 5px;
+	color: red;
+}

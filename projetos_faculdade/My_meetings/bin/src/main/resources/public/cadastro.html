@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<script>
+			function sendInfo(){
+				let pnome = document.getElementById("fname_field").value;
+				let unome = document.getElementById("lname_field").value;
+				let cpf = document.getElementById("cpf_field").value;
+				let login = document.getElementById("login_field").value;
+				let senha = document.getElementById("password_field").value;
+				let telefone = document.getElementById("phone_field").value;
+				
+				document.location.href =	`/cadastro/send?pnome=${pnome}&unome=${unome}&cpf=${cpf}` +
+											`&login=${login}&senha=${senha}&telefone=${telefone}`;
+			}
+		</script>
+		<section>
+			<h1>Cadastro de usuário</h1>
+			<label for="fname_field">Primeiro Nome</label>
+			<input id="fname_field" type="text">
+			<label for="lname_field">Último nome</label>
+			<input id="lname_field" type="text"><br>
+			<label for="cpf_field">CPF</label><br>
+			<input id="cpf_field" type="text"><br>
+			<label for="login_field">Login</label><br>
+			<input id="login_field" type="text"><br>
+			<label for="password_field">Senha</label><br>
+			<input id="password_field" type="text"><br>
+			<label for="phone_field">Telefone</label><br>
+			<input id="phone_field" type="text" placeholder="(00)XXXXX-XXXX">
+			
+			<button id="submit-cad" onclick="sendInfo()">enviar</button>
+		</section>
+	</body>
+</html>

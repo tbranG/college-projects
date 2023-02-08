@@ -1,0 +1,157 @@
+html,body,#home{
+    height: 100%;
+    overflow-x: hidden;
+}
+body{
+    background-color: #cfcfcf;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Classes gerais*/
+.capa{
+    text-align: center;
+}
+.btn-branco{
+    color: white;
+}
+.btn-custom{
+    margin: 10px 0;
+    padding: 10;
+    background-color: #50238f;
+    border-radius: 20px;
+}
+.btn-custom:hover{
+    background-color: #5b4891;
+    color: white;
+}
+.btn-cinza{
+    background-color: #8c99d3;
+    transition: background-color 0.5s;
+}
+.btn-cinza:hover{
+    background-color: #50238f;
+    color: #fff;
+}
+.btn-gigante{
+    font-size: 1.6em;
+    color: #fff;
+    background-color: #8c99d3;
+    width: 50vw;
+    height: 10vh;
+    border-radius: 10px;
+    box-shadow: 3px 7px #cbd0e6;
+    transition: 0.3s;
+    
+}
+.btn-gigante:hover{
+    color: #cbd0e6;
+    width: 51vw;
+    height: 11vh;
+    background-color: #8c99d3;
+    box-shadow: 5px 9px #cbd0e6;
+}
+h1,p{
+    color: white;
+}
+.fa-solid{
+    color: #fff;
+}
+
+.fa-solid:hover{
+    color: #8c99d3;
+}
+.fa-paper-plane{
+    color: #50238f;
+}
+/*Home*/
+
+
+/*Eventos*/
+#Eventos{
+    padding: 50px 0px;
+    background-color: #fff;
+}
+.card-custom{
+    border: 2px solid #8c99d3;
+    box-shadow: 2px 5px #8c99d3 ;
+    border-radius: 10px ;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 2s ease-out;
+}
+.card-custom:hover{
+    background-color:#8c99d3;
+}
+#Eventos h1,h3{
+    color: #50238f;
+    margin: 20px 0px;
+}
+
+/*Criar*/
+#CriarEvento{
+    height: 40%;
+    background-color: #fff;
+}
+
+
+/*Nav*/
+#user-view{
+	cursor: pointer;
+	font-size : 2em;
+	margin : 0px 25px;
+}
+#user-view i{
+	color : #50238f;
+}
+.user-menu{
+	background-color: #f8f9fa;
+	position: absolute;
+	
+	padding: 2% 3%;
+	border-radius: 10px;
+	left: 80vw;
+	top: 15vh;
+}
+.agenda{
+	padding-bottom: 20px;
+}
+.agenda-group{
+	margin: 20vh 20vw 5vh;
+	background-color: #50238f;
+	border-radius: 25px;
+}
+.agenda-group h1{
+	text-align: center;
+	color: white;
+}
+
+.data-grupo{
+	margin: 30px;
+}
+.data-grupo h2{
+	color: white;
+	background-color: #875cdb;
+	padding: 10px;
+	border-radius: 10px;
+}
+.data-grupo div{
+	border-left: 2px solid #875cdb;
+	padding: 10px;
+}
+.data-grupo a{
+	display:block;
+	margin-left: 10px;
+	padding: 10px;
+	border-bottom: 2px solid #87c0fa;
+	border-radius: 10px;
+	
+	background-color: white;
+	color: black;
+	font-family: sans-serif;
+}
+.fa-star{
+	font-size: 1.1em;
+	margin-right: 10px;
+	color: #875cdb;
+}

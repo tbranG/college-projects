@@ -1,0 +1,66 @@
+html,body,#visao_geral{
+    height: 100%;
+    overflow-x: hidden;
+}
+body{
+    background: linear-gradient(50deg, #8c99d3, #50238f);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.evento_info{
+    border-radius: 10px;
+    box-shadow: 10px 8px #8c99d3;
+}
+.btn-custom{
+    margin: 10px 0;
+    padding: 10;
+    background-color: #50238f;
+    color: white;
+}
+.btn-custom:hover{
+    background: #8c99d3;
+}
+.capa{
+    text-align: center;
+}
+.centralizar{
+    margin-left: auto;
+    margin-right: auto;
+}
+h1,h2{
+    color: #50238f;
+}
+
+.participantes_info{
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 8px #8c99d3;
+}
+
+/*Nav*/
+#user-view{
+	cursor: pointer;
+	font-size : 2em;
+	margin : 0px 25px;
+}
+#user-view i{
+	color : #50238f;
+}
+.user-menu{
+	background-color: #f8f9fa;
+	position: absolute;
+	
+	padding: 2% 3%;
+	border-radius: 10px;
+	left: 80vw;
+	top: 15vh;
+}
+
+.list-group-item{
+	display: flex;
+	justify-content: space-between;
+}
+.fa-user-plus{
+	font-size: 1.2em;
+	color: purple;
+}

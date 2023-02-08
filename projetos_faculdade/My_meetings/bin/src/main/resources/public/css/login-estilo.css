@@ -1,0 +1,68 @@
+html,body,#login{
+    height: 100%;
+}
+body{
+    background:linear-gradient(to bottom, #8c99d3, #50238f);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.fa-brands{
+    border:1px solid #fff;
+    padding: 10px;
+    border-radius: 25px;
+    color:#fff;
+}
+.fa-brands:hover{
+    color: #8c99d3;
+    border:1px solid #8c99d3;
+}
+
+.btn-custom{
+    margin: 10px 0;
+    padding: 10;
+    color: #fff;
+    background-color: #8c99d3;
+    border-radius: 20px;
+}
+.btn-custom:hover{
+    background-color: #50238f;
+    color: white;
+}
+h4{
+    font-size: 0.8em;
+    color: white;
+}
+h3{
+    font-size: 1.2em;
+    color: white;
+}
+h2{
+    font-size: 1.5em;
+    color: white;
+}
+a{
+    font-size: 0.7em;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #8c99d3;
+}
+.Cadastro a{
+    font-size: 1em;
+}
+.centralizar{
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-login{
+    align-items: center;
+    text-align: center;
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+}

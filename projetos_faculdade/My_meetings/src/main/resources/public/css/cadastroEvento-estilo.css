@@ -1,0 +1,40 @@
+html,body,#criar_evento{
+    height: 100%;
+    overflow-x: hidden;
+}
+body{
+    background: linear-gradient(50deg, #8c99d3, #50238f);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.capa{
+    text-align: center;
+}
+.centralizar{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cadastro_content{
+    background-color: #fff;
+}
+h2{
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+h3{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn-custom{
+    background: #50238f;
+    color: #fff;
+    width: 15vw;
+    min-width: 100px;
+}
+
+.btn-custom:hover{
+    background: #8c99d3;
+}

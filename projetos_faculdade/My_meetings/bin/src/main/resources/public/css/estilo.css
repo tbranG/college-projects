@@ -1,0 +1,166 @@
+html,body,#home{
+    height: 100%;
+    overflow-x: hidden;
+}
+body{
+    background: linear-gradient(50deg, #8c99d3, #50238f);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Classes gerais*/
+.capa{
+    text-align: center;
+}
+.btn-branco{
+    color: white;
+}
+.btn-custom{
+    margin: 10px 0;
+    padding: 10;
+    background-color: #50238f;
+    border-radius: 20px;
+}
+.btn-custom:hover{
+    background-color: #5b4891;
+    color: white;
+}
+.btn-cinza{
+    background-color: #8c99d3;
+    transition: background-color 0.5s;
+}
+.btn-cinza:hover{
+    background-color: #50238f;
+    color: #fff;
+}
+.btn-gigante{
+    font-size: 1.6em;
+    color: #fff;
+    background-color: #8c99d3;
+    width: 50vw;
+    height: 10vh;
+    border-radius: 10px;
+    box-shadow: 3px 7px #cbd0e6;
+    transition: 0.3s;
+    
+}
+.btn-gigante:hover{
+    color: #cbd0e6;
+    width: 51vw;
+    height: 11vh;
+    background-color: #8c99d3;
+    box-shadow: 5px 9px #cbd0e6;
+}
+h1,p{
+    color: white;
+}
+.fa-solid{
+    color: #fff;
+}
+
+.fa-solid:hover{
+    color: #8c99d3;
+}
+.fa-paper-plane{
+    color: #50238f;
+}
+/*Home*/
+
+
+/*Eventos*/
+#Eventos{
+    padding: 50px 0px;
+    background-color: #fff;
+}
+.card-custom{
+    border: 2px solid #8c99d3;
+    box-shadow: 2px 5px #8c99d3 ;
+    border-radius: 10px ;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 2s ease-out;
+}
+.card-custom:hover{
+    background-color:#8c99d3;
+}
+#Eventos h1,h3{
+    color: #50238f;
+    margin: 20px 0px;
+}
+
+/*Criar*/
+#CriarEvento{
+    height: 40%;
+    background-color: #fff;
+}
+/*Agenda*/
+#Agenda{
+padding: 50px 0;
+}
+#Agenda .btn{
+    border-radius: 30px;
+    margin-left: auto;
+}
+.card-eventos{
+    background: #fff;
+    margin: 20px 0px;
+    margin-right: 20px;
+    border-radius: 0px 10px 10px 0px;
+    align-items: center;
+}
+.card-eventos h1{
+    color: #50238f;
+    font-size: 1.5em;
+}
+.card-eventos h3{
+    color: #50238f;
+    font-size: 1em;
+}
+
+
+
+/*footer*/
+
+footer{
+    background: #50238f;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+
+footer h4{
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+    color: white;
+    font-size: 0.8em;
+}
+
+
+footer .navbar-nav a:hover{
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    float: right;
+    margin: 0 10px;
+}
+
+
+footer .fa-brands{
+    font-size: 40px;
+    color: #fff;
+}
+
+
+footer .fa-brands:hover{
+    font-size: 40px;
+    color: #9bf0e1;
+}
