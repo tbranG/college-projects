@@ -1,5 +1,5 @@
-Projetos de pequeno porte
+Projetos de pequeno porte desenvolvidos de maneira independente
 
 -> Códigos simples em C,C++
--> Códigos Java
--> Projetos Web (HTML,CSS,JavaScript)
+-> Projetos Java, Python e Rust
+-> Projetos Web (NodeJS e React, Spring Boot)

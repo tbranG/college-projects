@@ -1,0 +1,70 @@
+body > p{
+    text-align: center;
+}
+
+.calc-body{
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0px 30%;
+
+    max-width: 560px;
+}
+
+/* Visor */
+#visor{
+    height: 50px;
+    width: 225px;
+    margin: 15px auto 0px;
+
+    background-color: black;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+#visor p{
+    color: white;
+    font-family: monospace;
+    font-size: 2em;
+
+    margin: 10px;
+
+    text-align: left;
+}
+
+/* botões */
+.calc-button{
+    width: 35px;
+    height: 35px;
+
+    margin: 5px;
+
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+.calc-button:hover{
+    opacity: 0.4;
+}
+
+.operations{
+    display: flex;
+    justify-content: center;
+
+    margin: 10px 0px 0px;
+    padding: 0px ;
+}
+.operations li{
+    list-style: none;
+}
+
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 150px;
+    margin: 0px auto;
+    padding: 0px;
+}
+.numbers li{
+    list-style: none;
+}
